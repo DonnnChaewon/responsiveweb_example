@@ -42,14 +42,14 @@ const Topics = () => {
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-md-12 text-center'>
-                            <h3 className='main-heading text-center'>Jang Wonyoung</h3>
+                            <h3 className='main-heading text-center'>Cristiano Ronaldo</h3>
                         </div>
                         <div className='col-md-12'>
                             <img src={Topic2} className="img-fluid rounded" />
-                            <p>Jang Wonyoung is a South Korean singer-songwriter, dancer, model, and MC under Starship Entertainment. She is best known as the visual and sub vocalist of the girl group IVE.</p>
-                            <p>She was born in 31 August 2004 at Ichon-Dong, Yongsan-Gu, Seoul, South Korea. Wonyoung was only thirteen years old when she joined the popular survival show Produce 48 as the youngest trainee. Her visuals and unique charms captivated the viewers from the start.</p>
-                            <p>She earned the most votes and became the center of the project group IZ*ONE, debuting with them on October 29, 2018. After three years of promotions, the group officially disbanded on April 29, 2021. Following this, Wonyoung continued to train while pursuing solo activities.</p>
-                            <p>In early November 2021, Starship Entertainment revealed that Wonyoung and her former IZ*ONE groupmate Yujin would join their new girl group. Wonyoung made her debut as an IVE member on December 1, 2021.</p>
+                            <p>Cristiano Ronaldo dos Santos Aveiro is a Portuguese professional footballer who plays as a forward for and captains both Saudi Pro League club Al-Nassr and the Portugal national team. He was born in 5 February 1985 at Funchal, Madeira, Portugal.</p>
+                            <p>Nicknamed CR7, he is widely regarded as one of the greatest players of all time, and has won numerous individual accolades throughout his professional footballing career, including five Ballon d'Or awards, a record three UEFA Men's Player of the Year Awards, four European Golden Shoes, and was named five times the world's best player by FIFA.</p>
+                            <p>He has won 33 trophies in his career, including seven league titles, five UEFA Champions Leagues and the UEFA European Championship. Ronaldo holds the records for most goals (140) and assists (42) in the Champions League, goals (14) and assists (8) in the European Championship, and most international appearances (219) and international goals (136).</p>
+                            <p>He is one of the few players to have made over 1,200 professional career appearances, the most by an outfield player, and has scored over 900 official senior career goals for club and country, making him the top goalscorer of all time.</p>
                         </div>
                     </div>
                 </div>

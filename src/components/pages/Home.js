@@ -71,9 +71,9 @@ const Home = () => {
                             <div className='card shadow'>
                                 <img src={Topic2} className='w-120 border-bottom' />
                                 <div className='card-body'>
-                                    <h6>Jang Wonyoung</h6>
+                                    <h6>Cristiano Ronaldo</h6>
                                     <div className='underline'></div>
-                                    <p>Jang Wonyoung is a South Korean singer-songwriter, dancer, model, and MC under Starship Entertainment. She is best known as the visual and sub vocalist of the girl group IVE.</p>
+                                    <p>Cristiano Ronaldo dos Santos Aveiro is a Portuguese professional footballer who plays as a forward for and captains both Saudi Pro League club Al-Nassr and the Portugal national team. He was born in 5 February 1985 at Funchal, Madeira, Portugal.</p>
                                     <Link to='/topics' className='btn btn-link'>Read More</Link>
                                 </div>
                             </div>
