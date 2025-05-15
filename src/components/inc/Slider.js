@@ -17,29 +17,29 @@ const Slider = () => {
                 <div class="carousel-item active">
                     <img src={Slider1} class="d-block w-100" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p className='text-shadow'>Some representative placeholder content for the first slide.</p>
+                        <h5 className='text-shadow-1'>First slider</h5>
+                        <p className='text-shadow'>The Rock & Vin Diesel</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src={Slider2} class="d-block w-100" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p className='text-shadow'>Some representative placeholder content for the second slide.</p>
+                        <h5 className='text-shadow-1'>Second slider</h5>
+                        <p className='text-shadow'>Cristiano Ronaldo</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src={Slider3} class="d-block w-100" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p className='text-shadow'>Some representative placeholder content for the third slide.</p>
+                        <h5 className='text-shadow-1'>Third slider</h5>
+                        <p className='text-shadow'>X-Men</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src={Slider4} class="d-block w-100" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Fourth slide label</h5>
-                        <p className='text-shadow'>Some representative placeholder content for the fourth slide.</p>
+                        <h5 className='text-shadow-1'>Fourth slider</h5>
+                        <p className='text-shadow'>The Hulk</p>
                     </div>
                 </div>
             </div>
