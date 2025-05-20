@@ -3,20 +3,7 @@ import React from 'react'
 const About = () => {
     return (
         <div>
-            <section className='py-4 bg-info'>
-                <div className='container'>
-                    <div className='row'>
-                        <div className='col-md-4 my-auto'>
-                            <h4>About Us</h4>
-                        </div>
-                        <div className='col-md-8 my-auto'>
-                            <h6 className='float-end'>Home / About Us</h6>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className='section bg-c-light border-bottom'>
+            <section className='section border-bottom'>
                 <div className='container'>
                     <h5 className='main-heading'>Our Site</h5>
                     <div className='underline'></div>
@@ -25,24 +12,30 @@ const About = () => {
             </section>
 
             {/* Vision, mission, and values */}
-            <section className='section bg-c-light'>
+            <section className='section'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-12 mb-4 text-center'>
                             <h3 className='main-heading'>Vision, mission, and values</h3>
                             <div className='underline mx-auto'></div>
                         </div>
-                        <div className='col-md-4 text-center'>
-                            <h6>Our Vision</h6>
-                            <p>Our vision is to make a responsive website that can load a lot of topics.</p>
+                        <div className='col-md-4 border border-1'>
+                            <div className='center-box'>
+                                <h6>Our Vision</h6>
+                                <p>Our vision is to make a responsive website that can load a lot of topics. The website, of course, is user friendly and can be accessed easily.</p>
+                            </div>
                         </div>
-                        <div className='col-md-4 text-center'>
-                            <h6>Our Mission</h6>
-                            <p>Our mission is to make readers impressed about our topics. They can request us to make what topic in the 'Contact Us' menu.</p>
+                        <div className='col-md-4 border border-1'>
+                            <div className='center-box'>
+                                <h6>Our Mission</h6>
+                                <p>Our mission is to make readers impressed about our topics. They can request us to make what topic in the 'Contact Us' menu.</p>
+                            </div>
                         </div>
-                        <div className='col-md-4 text-center'>
-                            <h6>Our Values</h6>
-                            <p>We value hardwork, honest, dilligency, and of course, your comments about our topics.</p>
+                        <div className='col-md-4 border border-1'>
+                            <div className='center-box'>
+                                <h6>Our Values</h6>
+                                <p>We value hardwork, honest, dilligency, and of course, your comments about our topics. Regardless your comments are good or bad, those comments that build us to become a better people.</p>
+                            </div>
                         </div>
                     </div>
                 </div>

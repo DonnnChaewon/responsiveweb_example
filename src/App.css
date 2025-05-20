@@ -1,6 +1,5 @@
 p {
-    font-size: 18px;
-    color: #262626;
+    font-size: 16px;
 }
 
 .section {
@@ -16,28 +15,115 @@ p {
 .underline {
     height: 4px;
     width: 12rem;
-    background-color: #000000;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .bg-c-light {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
+}
+
+.footer-text {
+    font-size: 16px;
 }
 
 .footer a {
-    color: #fff;
     text-decoration: none;
 }
 
 .footer a:hover {
-    color: gray;
+    color: rgb(15, 226, 233);
 }
 
 .text-shadow {
-    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    color: #ffffff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-.text-shadow-1 {
-    text-shadow: 2px 2px 2px rgb(14, 22, 143);
+.center-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* vertical center */
+    align-items: center;
+    /* horizontal center */
+    text-align: center;
+    height: 100%;
+    /* make it fill the container height */
+    padding: 20px;
+    /* optional: spacing inside */
+}
+
+/* Light Mode (default) */
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.light .card {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.light .navbar,
+body.light .footer {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.light p {
+    color: #000000;
+}
+
+body.light .underline {
+    background-color: #000000;
+}
+
+body.light .border {
+    border-color: #000000 !important;
+}
+
+body.light .footer-text a {
+    color: #000000;
+}
+
+/* Dark Mode */
+body.dark {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body.dark .card {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body.dark .navbar,
+body.dark .footer {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body.dark .nav-link {
+    color: #ffffff !important;
+}
+
+body.dark .nav-link:hover {
+    color: #0fe2e9 !important;
+}
+
+body.dark p {
+    color: #e0e0e0;
+}
+
+body.dark .underline {
+    background-color: #ffffff;
+}
+
+body.dark .border {
+    border-color: #ffffff !important;
+}
+
+body.dark .footer-text a {
+    color: #ffffff;
 }

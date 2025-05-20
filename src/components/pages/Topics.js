@@ -7,19 +7,6 @@ import Topic4 from '../images/slider4.jpeg'
 const Topics = () => {
     return (
         <div>
-            <section className='py-4 bg-info'>
-                <div className='container'>
-                    <div className='row'>
-                        <div className='col-md-4 my-auto'>
-                            <h4>Topics</h4>
-                        </div>
-                        <div className='col-md-8 my-auto'>
-                            <h6 className='float-end'>Home / Topics</h6>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             <section className='section'>
                 <div className='container'>
                     <div className='row align-items-center'>
@@ -36,8 +23,8 @@ const Topics = () => {
                         </div>
                     </div>
                 </div>
-            </section>
-            <hr />
+            </section><hr />
+            
             <section className='section'>
                 <div className='container'>
                     <div className='row align-items-center'>
@@ -53,8 +40,8 @@ const Topics = () => {
                         </div>
                     </div>
                 </div>
-            </section>
-            <hr />
+            </section><hr />
+            
             <section className='section'>
                 <div className='container'>
                     <div className='row align-items-center'>
@@ -70,8 +57,8 @@ const Topics = () => {
                         </div>
                     </div>
                 </div>
-            </section>
-            <hr />
+            </section><hr />
+            
             <section className='section'>
                 <div className='container'>
                     <div className='row align-items-center'>
@@ -89,7 +76,6 @@ const Topics = () => {
                     </div>
                 </div>
             </section>
-            <br />
         </div>
     )
 }

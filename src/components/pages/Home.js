@@ -21,34 +21,38 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section><hr />
 
-            {/* Vision, mission, and values */}
-            <section className='section bg-c-light'>
+            <section className='section'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-12 mb-4 text-center'>
                             <h3 className='main-heading'>Vision, mission, and values</h3>
                             <div className='underline mx-auto'></div>
                         </div>
-                        <div className='col-md-4 text-center'>
-                            <h6>Our Vision</h6>
-                            <p>Our vision is to make a responsive website that can load a lot of topics. The website, of course, is user friendly and can be accessed easily.</p>
+                        <div className='col-md-4 border border-1'>
+                            <div className='center-box'>
+                                <h6>Our Vision</h6>
+                                <p>Our vision is to make a responsive website that can load a lot of topics. The website, of course, is user friendly and can be accessed easily.</p>
+                            </div>
                         </div>
-                        <div className='col-md-4 text-center'>
-                            <h6>Our Mission</h6>
-                            <p>Our mission is to make readers impressed about our topics. They can request us to make what topic in the 'Contact Us' menu.</p>
+                        <div className='col-md-4 border border-1'>
+                            <div className='center-box'>
+                                <h6>Our Mission</h6>
+                                <p>Our mission is to make readers impressed about our topics. They can request us to make what topic in the 'Contact Us' menu.</p>
+                            </div>
                         </div>
-                        <div className='col-md-4 text-center'>
-                            <h6>Our Values</h6>
-                            <p>We value hardwork, honest, dilligency, and of course, your comments about our topics. Regardless your comments are good or bad, those comments that build us to become a better people.</p>
+                        <div className='col-md-4 border border-1'>
+                            <div className='center-box'>
+                                <h6>Our Values</h6>
+                                <p>We value hardwork, honest, dilligency, and of course, your comments about our topics. Regardless your comments are good or bad, those comments that build us to become a better people.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </section><hr />
 
-            {/* Our Topics */}
-            <section className='section border-top'>
+            <section className='section'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-12 mb-4 text-center'>
@@ -58,10 +62,9 @@ const Home = () => {
 
                         <div className='col-md-3'>
                             <div className='card shadow'>
-                                <img src={Topic1} className='w-120 border-bottom' />
-                                <div className='card-body'>
+                                <img src={Topic1} className='w-120' />
+                                <div className='card-body center-box'>
                                     <h6>The Rock & Vin Diesel</h6>
-                                    <div className='underline'></div>
                                     <p>The Rock and Vin Diesel are actors in the Fast & Furious franchise. Their real names are Dwayne Johnson and Mark Sinclair, respectively.</p>
                                     <Link to='/topics' className='btn btn-link'>Read More</Link>
                                 </div>
@@ -69,21 +72,19 @@ const Home = () => {
                         </div>
                         <div className='col-md-3'>
                             <div className='card shadow'>
-                                <img src={Topic2} className='w-120 border-bottom' />
-                                <div className='card-body'>
+                                <img src={Topic2} className='w-120' />
+                                <div className='card-body center-box'>
                                     <h6>Cristiano Ronaldo</h6>
-                                    <div className='underline'></div>
-                                    <p>Cristiano Ronaldo dos Santos Aveiro is a Portuguese professional footballer who plays as a forward for and captains both Saudi Pro League club Al-Nassr and the Portugal national team. He was born in 5 February 1985 at Funchal, Madeira, Portugal.</p>
+                                    <p>Cristiano Ronaldo dos Santos Aveiro is a Portuguese professional footballer who plays as a forward for and captains both Saudi Pro League club Al-Nassr and the Portugal national team.</p>
                                     <Link to='/topics' className='btn btn-link'>Read More</Link>
                                 </div>
                             </div>
                         </div>
                         <div className='col-md-3'>
                             <div className='card shadow'>
-                                <img src={Topic3} className='w-120 border-bottom' />
-                                <div className='card-body'>
+                                <img src={Topic3} className='w-120' />
+                                <div className='card-body center-box'>
                                     <h6>X-Men</h6>
-                                    <div className='underline'></div>
                                     <p>The X-Men is a team from Marvel comics that is known for their mutant abilities. All of the members have mutant abilities that make them different from normal humans.</p>
                                     <Link to='/topics' className='btn btn-link'>Read More</Link>
                                 </div>
@@ -91,10 +92,9 @@ const Home = () => {
                         </div>
                         <div className='col-md-3'>
                             <div className='card shadow'>
-                                <img src={Topic4} className='w-120 border-bottom' />
-                                <div className='card-body'>
+                                <img src={Topic4} className='w-120' />
+                                <div className='card-body center-box'>
                                     <h6>The Hulk</h6>
-                                    <div className='underline'></div>
                                     <p>The Hulk is a character from Marvel comics that is a member of Avengers. His real name is Bruce Banners and he is the strongest member of Avengers.</p>
                                     <Link to='/topics' className='btn btn-link'>Read More</Link>
                                 </div>
