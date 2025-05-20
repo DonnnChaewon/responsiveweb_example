@@ -61,7 +61,7 @@ const Home = () => {
                         </div>
 
                         <div className='col-md-3'>
-                            <div className='card shadow'>
+                            <div className='card shadow border border-1'>
                                 <img src={Topic1} className='w-120' />
                                 <div className='card-body center-box'>
                                     <h6>The Rock & Vin Diesel</h6>
@@ -71,7 +71,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='col-md-3'>
-                            <div className='card shadow'>
+                            <div className='card shadow border border-1'>
                                 <img src={Topic2} className='w-120' />
                                 <div className='card-body center-box'>
                                     <h6>Cristiano Ronaldo</h6>
@@ -81,7 +81,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='col-md-3'>
-                            <div className='card shadow'>
+                            <div className='card shadow border border-1'>
                                 <img src={Topic3} className='w-120' />
                                 <div className='card-body center-box'>
                                     <h6>X-Men</h6>
@@ -91,7 +91,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='col-md-3'>
-                            <div className='card shadow'>
+                            <div className='card shadow border border-1'>
                                 <img src={Topic4} className='w-120' />
                                 <div className='card-body center-box'>
                                     <h6>The Hulk</h6>
