@@ -31,11 +31,11 @@ const Contact = () => {
         <div>
             <section className='section'>
                 <div className='container'>
-                    <div className='card shadow'>
+                    <div className='card shadow border border-1'>
                         <div className='card-body'>
                             <div className='row'>
                                 <div className='col-md-6 border-left'>
-                                    <h6>Contact Form</h6>
+                                    <h5 className='main-heading'>Contact Form</h5>
                                     <hr />
                                     <form onSubmit={handleSubmit}>
                                         <div className='form-group'>
@@ -96,7 +96,7 @@ const Contact = () => {
 
                                 <div className='col-md-6 border-start'>
                                     <h5 className='main-heading'>Address Information</h5>
-                                    <div className='underline'></div>
+                                    <hr />
                                     <p>San Francisco, California, USA</p>
                                     <p>Phone: +1 1234567890</p>
                                     <p>Email: email@domain.com</p>

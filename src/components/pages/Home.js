@@ -11,7 +11,7 @@ const Home = () => {
         <div>
             <Slider />
 
-            <section className='section'>
+            <section className='section border-bottom'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-12 text-center'>
@@ -21,9 +21,9 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </section><hr />
+            </section>
 
-            <section className='section'>
+            <section className='section border-bottom'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-12 mb-4 text-center'>
@@ -50,7 +50,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </section><hr />
+            </section>
 
             <section className='section'>
                 <div className='container'>
@@ -66,7 +66,7 @@ const Home = () => {
                                 <div className='card-body center-box'>
                                     <h6>The Rock & Vin Diesel</h6>
                                     <p>The Rock and Vin Diesel are actors in the Fast & Furious franchise. Their real names are Dwayne Johnson and Mark Sinclair, respectively.</p>
-                                    <Link to='/topics' className='btn btn-link'>Read More</Link>
+                                    <Link to='/topics' className='btn btn-link text-decoration-none'>Read More</Link>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ const Home = () => {
                                 <div className='card-body center-box'>
                                     <h6>Cristiano Ronaldo</h6>
                                     <p>Cristiano Ronaldo dos Santos Aveiro is a Portuguese professional footballer who plays as a forward for and captains both Saudi Pro League club Al-Nassr and the Portugal national team.</p>
-                                    <Link to='/topics' className='btn btn-link'>Read More</Link>
+                                    <Link to='/topics' className='btn btn-link text-decoration-none'>Read More</Link>
                                 </div>
                             </div>
                         </div>
@@ -86,7 +86,7 @@ const Home = () => {
                                 <div className='card-body center-box'>
                                     <h6>X-Men</h6>
                                     <p>The X-Men is a team from Marvel comics that is known for their mutant abilities. All of the members have mutant abilities that make them different from normal humans.</p>
-                                    <Link to='/topics' className='btn btn-link'>Read More</Link>
+                                    <Link to='/topics' className='btn btn-link text-decoration-none'>Read More</Link>
                                 </div>
                             </div>
                         </div>
@@ -96,7 +96,7 @@ const Home = () => {
                                 <div className='card-body center-box'>
                                     <h6>The Hulk</h6>
                                     <p>The Hulk is a character from Marvel comics that is a member of Avengers. His real name is Bruce Banners and he is the strongest member of Avengers.</p>
-                                    <Link to='/topics' className='btn btn-link'>Read More</Link>
+                                    <Link to='/topics' className='btn btn-link text-decoration-none'>Read More</Link>
                                 </div>
                             </div>
                         </div>

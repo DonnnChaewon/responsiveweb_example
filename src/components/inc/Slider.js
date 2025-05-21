@@ -17,29 +17,29 @@ const Slider = () => {
                 <div class="carousel-item active">
                     <img src={Slider1} class="d-block w-100" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 className='text-shadow'>First slider</h5>
-                        <p className='text-shadow'>The Rock & Vin Diesel</p>
+                        <h3 className='text-shadow'>First slider</h3>
+                        <h6 className='text-shadow'>The Rock & Vin Diesel</h6>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src={Slider2} class="d-block w-100" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 className='text-shadow'>Second slider</h5>
-                        <p className='text-shadow'>Cristiano Ronaldo</p>
+                        <h3 className='text-shadow'>Second slider</h3>
+                        <h6 className='text-shadow'>Cristiano Ronaldo</h6>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src={Slider3} class="d-block w-100" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 className='text-shadow'>Third slider</h5>
-                        <p className='text-shadow'>X-Men</p>
+                        <h3 className='text-shadow'>Third slider</h3>
+                        <h6 className='text-shadow'>X-Men</h6>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src={Slider4} class="d-block w-100" />
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 className='text-shadow'>Fourth slider</h5>
-                        <p className='text-shadow'>The Hulk</p>
+                        <h3 className='text-shadow'>Fourth slider</h3>
+                        <h6 className='text-shadow'>The Hulk</h6>
                     </div>
                 </div>
             </div>
