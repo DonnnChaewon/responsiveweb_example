@@ -15,7 +15,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className={`flex items-center justify-between flex-wrap p-4 shadow ${theme === 'light' ? 'bg-white text-black' : 'bg-black text-white'}`}>
+        <nav className={`flex items-center justify-between flex-wrap p-4 border-bottom ${theme === 'light' ? 'bg-white text-black' : 'bg-black text-white'}`}>
             <div className="flex items-center flex-shrink-0 text-xl">
                 <Link to="/" className={`no-underline ${theme === 'light' ? 'text-black' : 'text-white'}`}>TopicNation</Link>
             </div>
@@ -29,10 +29,10 @@ const Navbar = () => {
                     <li><Link className={`no-underline ${theme === 'light' ? 'text-black' : 'text-white'}`} to="/about">About Us</Link></li>
                     <li><Link className={`no-underline ${theme === 'light' ? 'text-black' : 'text-white'}`} to="/contact">Contact Us</Link></li>
                 </ul>
+                <button onClick={toggleTheme} className={`ml-4 border border-gray-500 ${theme === 'light' ? 'text-black' : 'text-white'} px-4 py-2 rounded`}>
+                    {theme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode'}
+                </button>
             </div>
-            <button onClick={toggleTheme} className={`ml-4 border border-gray-500 ${theme === 'light' ? 'text-black' : 'text-white'} px-4 py-2 rounded`}>
-                {theme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode'}
-            </button>
         </nav>
     );
 };

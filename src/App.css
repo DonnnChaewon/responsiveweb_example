@@ -104,6 +104,14 @@ body.light .border {
     border-color: #000000 !important;
 }
 
+body.light .border-top {
+    border-color: #000000 !important;
+}
+
+body.light .border-bottom {
+    border-color: #000000 !important;
+}
+
 body.light .footer-text a {
     color: #000000;
 }
@@ -159,6 +167,14 @@ body.dark .underline {
 }
 
 body.dark .border {
+    border-color: #ffffff !important;
+}
+
+body.dark .border-top {
+    border-color: #ffffff !important;
+}
+
+body.dark .border-bottom {
     border-color: #ffffff !important;
 }
 
