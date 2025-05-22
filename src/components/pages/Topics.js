@@ -11,7 +11,7 @@ const Topics = () => {
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-md-12 text-center'>
-                            <h3 className='main-heading text-center'>The Rock & Vin Diesel</h3>
+                            <h3 className='text-2xl font-bold text-blue-600'>The Rock & Vin Diesel</h3>
                         </div>
                         <div className='col-md-12'>
                             <img src={Topic1} className="img-fluid" />
@@ -29,7 +29,7 @@ const Topics = () => {
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-md-12 text-center'>
-                            <h3 className='main-heading text-center'>Cristiano Ronaldo</h3>
+                            <h3 className='text-2xl font-bold text-blue-600'>Cristiano Ronaldo</h3>
                         </div>
                         <div className='col-md-12'>
                             <img src={Topic2} className="img-fluid" />
@@ -46,7 +46,7 @@ const Topics = () => {
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-md-12 text-center'>
-                            <h3 className='main-heading text-center'>X-Men</h3>
+                            <h3 className='text-2xl font-bold text-blue-600'>X-Men</h3>
                         </div>
                         <div className='col-md-12'>
                             <img src={Topic3} className="img-fluid" />
@@ -63,7 +63,7 @@ const Topics = () => {
                 <div className='container'>
                     <div className='row align-items-center'>
                         <div className='col-md-12 text-center'>
-                            <h3 className='main-heading text-center'>The Hulk</h3>
+                            <h3 className='text-2xl font-bold text-blue-600'>The Hulk</h3>
                         </div>
                         <div className='col-md-12'>
                             <img src={Topic4} className="img-fluid" />

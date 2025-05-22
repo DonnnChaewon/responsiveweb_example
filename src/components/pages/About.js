@@ -4,9 +4,9 @@ const About = () => {
     return (
         <div>
             <section className='section border-bottom'>
-                <div className='container'>
-                    <h5 className='main-heading'>Our Site</h5>
-                    <div className='underline'></div>
+                <div className='container text-center'>
+                    <h3 className='text-2xl font-bold text-blue-600'>Our Site</h3>
+                    <div className='underline mx-auto'></div>
                     <p>This is an example of a responsive website about various topics as long they are relevant to readers. The topics are various and of course, no topic is absurd and cringe. The topics here can be random and can be from anywhere and anytime.</p>
                 </div>
             </section>
@@ -16,7 +16,7 @@ const About = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-12 mb-4 text-center'>
-                            <h3 className='main-heading'>Vision, mission, and values</h3>
+                            <h3 className='text-2xl font-bold text-blue-600'>Vision, mission, and values</h3>
                             <div className='underline mx-auto'></div>
                         </div>
                         <div className='col-md-4 border border-1'>

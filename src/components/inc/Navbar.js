@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'light');
 
     useEffect(() => {
-        document.body.className = ''; // Reset classes
+        document.body.className = ''; // Reset body class
         document.body.classList.add(theme);
         localStorage.setItem('theme', theme);
     }, [theme]);
@@ -15,26 +15,24 @@ const Navbar = () => {
     };
 
     return (
-        <nav className={`navbar navbar-expand-lg navbar-${theme} bg-${theme} shadow`}>
-            <div className="container-fluid">
-                <Link className="navbar-brand" to="/">TopicNation</Link>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li className="nav-item"><Link className="nav-link" to="/">Home</Link></li>
-                        <li className="nav-item"><Link className="nav-link" to="/topics">Topics</Link></li>
-                        <li className="nav-item"><Link className="nav-link" to="/about">About Us</Link></li>
-                        <li className="nav-item"><Link className="nav-link" to="/contact">Contact Us</Link></li>
-                        <li className="nav-item">
-                            <button onClick={toggleTheme} className="btn btn-outline-secondary ms-3">
-                                {theme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode'}
-                            </button>
-                        </li>
-                    </ul>
-                </div>
+        <nav className={`flex items-center justify-between flex-wrap p-4 shadow ${theme === 'light' ? 'bg-white text-black' : 'bg-black text-white'}`}>
+            <div className="flex items-center flex-shrink-0 text-xl">
+                <Link to="/" className={`no-underline ${theme === 'light' ? 'text-black' : 'text-white'}`}>TopicNation</Link>
             </div>
+            <div className="block lg:hidden">
+                {/* You can add a hamburger menu here for mobile */}
+            </div>
+            <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+                <ul className="lg:flex-grow flex gap-6 justify-end">
+                    <li><Link className={`no-underline ${theme === 'light' ? 'text-black' : 'text-white'}`} to="/">Home</Link></li>
+                    <li><Link className={`no-underline ${theme === 'light' ? 'text-black' : 'text-white'}`} to="/topics">Topics</Link></li>
+                    <li><Link className={`no-underline ${theme === 'light' ? 'text-black' : 'text-white'}`} to="/about">About Us</Link></li>
+                    <li><Link className={`no-underline ${theme === 'light' ? 'text-black' : 'text-white'}`} to="/contact">Contact Us</Link></li>
+                </ul>
+            </div>
+            <button onClick={toggleTheme} className={`ml-4 border border-gray-500 ${theme === 'light' ? 'text-black' : 'text-white'} px-4 py-2 rounded`}>
+                {theme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode'}
+            </button>
         </nav>
     );
 };

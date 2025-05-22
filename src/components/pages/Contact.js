@@ -35,7 +35,7 @@ const Contact = () => {
                         <div className='card-body'>
                             <div className='row'>
                                 <div className='col-md-6 border-left'>
-                                    <h5 className='main-heading'>Contact Form</h5>
+                                    <h5 className='text-2xl font-bold text-blue-600'>Contact Form</h5>
                                     <hr />
                                     <form onSubmit={handleSubmit}>
                                         <div className='form-group'>
@@ -95,7 +95,7 @@ const Contact = () => {
                                 </div>
 
                                 <div className='col-md-6 border-start'>
-                                    <h5 className='main-heading'>Address Information</h5>
+                                    <h5 className='text-2xl font-bold text-blue-600'>Address Information</h5>
                                     <hr />
                                     <p>San Francisco, California, USA</p>
                                     <p>Phone: +1 1234567890</p>

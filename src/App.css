@@ -1,3 +1,8 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 p {
     font-size: 16px;
 }
@@ -5,11 +10,6 @@ p {
 .section {
     padding-top: 40px;
     padding-bottom: 40px;
-}
-
-.main-heading {
-    color: rgb(54, 115, 228);
-    font-size: 26px;
 }
 
 .underline {
@@ -60,6 +60,10 @@ body.light {
     color: #000000;
 }
 
+body.light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
 body.light .nav-link {
     color: #000000 !important;
 }
@@ -108,6 +112,10 @@ body.light .footer-text a {
 body.dark {
     background-color: #000000;
     color: #ffffff;
+}
+
+body.dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 body.dark .nav-link {

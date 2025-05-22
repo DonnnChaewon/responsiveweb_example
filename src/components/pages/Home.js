@@ -15,9 +15,9 @@ const Home = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-12 text-center'>
-                            <h3 className='main-heading'>What is this?</h3>
+                            <h3 className='text-2xl font-bold text-blue-600'>What is this?</h3>
                             <div className='underline mx-auto'></div>
-                            <p>This is an example of a responsive website about various topics as long they are relevant to readers. The topics are various and of course, no topic is absurd and cringe. The topics here can be random and can be from anywhere and anytime.</p>
+                            <p className="text-base text-gray-700 dark:text-gray-300">This is an example of a responsive website about various topics as long they are relevant to readers. The topics are various and of course, no topic is absurd and cringe. The topics here can be random and can be from anywhere and anytime.</p>
                         </div>
                     </div>
                 </div>
@@ -27,7 +27,7 @@ const Home = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-12 mb-4 text-center'>
-                            <h3 className='main-heading'>Vision, mission, and values</h3>
+                            <h3 className='text-2xl font-bold text-blue-600'>Vision, mission, and values</h3>
                             <div className='underline mx-auto'></div>
                         </div>
                         <div className='col-md-4 border border-1'>
@@ -56,7 +56,7 @@ const Home = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-12 mb-4 text-center'>
-                            <h3 className='main-heading'>Our Topics</h3>
+                            <h3 className='text-2xl font-bold text-blue-600'>Our Topics</h3>
                             <div className='underline mx-auto'></div>
                         </div>
 
