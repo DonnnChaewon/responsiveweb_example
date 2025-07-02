@@ -29,7 +29,7 @@ const Navbar = () => {
                     <li><Link class={`no-underline ${theme === 'light' ? 'text-black' : 'text-white'}`} to="/about">About Us</Link></li>
                     <li><Link class={`no-underline ${theme === 'light' ? 'text-black' : 'text-white'}`} to="/contact">Contact Us</Link></li>
                 </ul>
-                <button onClick={toggleTheme} class={`ml-4 border border-gray-500 ${theme === 'light' ? 'text-black' : 'text-white'} px-4 py-2 rounded`}>
+                <button onClick={toggleTheme} class={`ml-4 border ${theme === 'light' ? 'border-black text-black' : 'border-white text-white'} px-4 py-2 rounded`}>
                     {theme === 'light' ? 'Switch to Dark Mode' : 'Switch to Light Mode'}
                 </button>
             </div>
