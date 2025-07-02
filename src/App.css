@@ -13,17 +13,8 @@ body.light .nav-link {
     color: #000000 !important;
 }
 
-body.light .nav-link:hover {
-    color: #0830b4 !important;
-}
-
 body.light .btn-outline-secondary {
     color: #000000 !important;
-}
-
-body.light .btn-outline-secondary:hover {
-    color: #ffffff !important;
-    background-color: #000000 !important;
 }
 
 body.light .card {
@@ -73,11 +64,6 @@ body.dark .nav-link {
 
 body.dark .btn-outline-secondary {
     color: #ffffff !important;
-}
-
-body.dark .btn-outline-secondary:hover {
-    color: #000000 !important;
-    background-color: #ffffff !important;
 }
 
 body.dark .card {
