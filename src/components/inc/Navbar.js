@@ -5,8 +5,7 @@ const Navbar = () => {
     const [theme, setTheme] = useState(() => localStorage.getItem('theme') || 'light');
 
     useEffect(() => {
-        document.body.class = ''; // Reset body class
-        document.body.classList.add(theme);
+        document.body.className = theme; // ✅ Set the body class properly
         localStorage.setItem('theme', theme);
     }, [theme]);
 

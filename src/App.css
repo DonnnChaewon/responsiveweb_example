@@ -36,10 +36,6 @@ body.light .underline {
     background-color: #000000;
 }
 
-body.light .border {
-    border-color: #000000 !important;
-}
-
 body.light .border-top {
     border-color: #000000 !important;
 }
