@@ -3,65 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
-p {
-    font-size: 16px;
-}
-
-.section {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.underline {
-    height: 4px;
-    width: 12rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.bg-c-light {
-    background-color: #ffffff;
-}
-
-.footer-text {
-    font-size: 16px;
-}
-
-.footer a {
-    text-decoration: none;
-}
-
-.footer a:hover {
-    color: rgb(15, 226, 233);
-}
-
-.text-shadow {
-    color: #ffffff;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.center-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* vertical center */
-    align-items: center;
-    /* horizontal center */
-    text-align: center;
-    height: 100%;
-    /* make it fill the container height */
-    padding: 20px;
-    /* optional: spacing inside */
-}
-
-/* Light Mode (default) */
+/* Light Mode */
 body.light {
     background-color: #ffffff;
     color: #000000;
-}
-
-body.light .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 body.light .nav-link {
@@ -120,10 +65,6 @@ body.light .footer-text a {
 body.dark {
     background-color: #000000;
     color: #ffffff;
-}
-
-body.dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 body.dark .nav-link {
