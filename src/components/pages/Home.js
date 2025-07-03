@@ -73,7 +73,7 @@ const Home = () => {
                         <div className='card-body flex flex-col justify-center items-center text-center h-full p-4'>
                             <h6 className='text-xl'>The Rock & Vin Diesel</h6>
                             <p className='text-base'>The Rock and Vin Diesel are actors in the Fast & Furious franchise. Their real names are Dwayne Johnson and Mark Sinclair, respectively.</p>
-                            <button className='btn bg-gradient-to-r from-orange-500 via-yellow-500 to-orange-500 text-white no-underline'>Read More</button>
+                            <button className='btn bg-gradient-to-r from-orange-500 via-yellow-500 to-orange-500 text-white no-underline hover:from-yellow-500 hover:via-lime-500 hover:to-yellow-500'>Read More</button>
                         </div>
                     </div>
 
