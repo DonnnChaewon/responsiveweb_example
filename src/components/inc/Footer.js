@@ -14,10 +14,10 @@ const Footer = () => {
                     <div className='col-md-4'>
                         <h6 className='text-2xl text-blue-600'>Quick Links</h6>
                         <hr className='border-white' />
-                        <p className='text-base mb-1'><Link to='/' className='text-white no-underline hover:underline'>Home</Link></p>
-                        <p className='text-base mb-1'><Link to='/about' className='text-white no-underline hover:underline'>About</Link></p>
-                        <p className='text-base mb-1'><Link to='/contact' className='text-white no-underline hover:underline'>Contact</Link></p>
-                        <p className='text-base mb-1'><Link to='/topics' className='text-white no-underline hover:underline'>Topics</Link></p>
+                        <p className='text-base mb-1'><Link to='/' className='text-white no-underline hover:text-cyan-500'>Home</Link></p>
+                        <p className='text-base mb-1'><Link to='/about' className='text-white no-underline hover:text-cyan-500'>About</Link></p>
+                        <p className='text-base mb-1'><Link to='/contact' className='text-white no-underline hover:text-cyan-500'>Contact</Link></p>
+                        <p className='text-base mb-1'><Link to='/topics' className='text-white no-underline hover:text-cyan-500'>Topics</Link></p>
                     </div>
                     <div className='col-md-4'>
                         <h6 className='text-2xl text-blue-600'>Contact Information</h6>

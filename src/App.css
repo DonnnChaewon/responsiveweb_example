@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a:hover {
+    color: #06b6d4 !important; /* Tailwind's cyan-500 */
+}
