@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav className='flex items-center justify-between flex-wrap p-4 border-b bg-black'>
             <div className="flex items-center flex-shrink-0 text-xl font-bold">
-                <img src={Logo} width='40%' height='40%' />
+                <Link to="/"><img src={Logo} width='40%' height='40%' /></Link>
             </div>
             <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto mt-4 lg:mt-0">
                 <ul className="lg:flex-grow flex gap-6 justify-end">
