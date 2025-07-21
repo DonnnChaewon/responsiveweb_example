@@ -5,8 +5,8 @@ import Value from '../images/value.png'
 
 const About = () => {
     return (
-        <div>
-            <section className='py-10 bg-gradient-to-r from-red-600 via-gray-500 to-red-600'>
+        <div className='bg-purple-600'>
+            <section className='py-10'>
                 <div className='container mx-auto px-4'>
                     <h3 className='text-2xl text-center font-bold text-pink-400'>Our Site</h3>
                     <div className='h-1 w-48 my-2.5 mx-auto bg-gradient-to-r from-cyan-600 via-white-500 to-cyan-600'></div>
@@ -15,12 +15,12 @@ const About = () => {
             </section>
 
             {/* Vision, mission, and values */}
-            <section className='py-10 bg-gradient-to-r from-blue-900 via-cyan-600 to-blue-900'>
+            <section className='py-10'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-12 mb-4 text-center'>
                             <h3 className='text-2xl font-bold text-yellow-400'>Vision, mission, and values</h3>
-                            <div className='h-1 w-48 my-2.5 mx-auto bg-gradient-to-r from-purple-600 via-red-500 to-purple-600'></div>
+                            <div className='h-1 w-48 my-2.5 mx-auto bg-gradient-to-r from-pink-500 via-red-500 to-pink-500'></div>
                         </div>
                         <div className='col-md-12 card shadow-lg border border-1 mb-5'>
                             <div className='flex flex-col justify-center items-center text-center h-full p-5'>

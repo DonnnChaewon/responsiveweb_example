@@ -9,7 +9,7 @@ import Value from '../images/value.png'
 
 const Home = () => {
     return (
-        <div className='bg-purple-500'>
+        <div className='bg-purple-600'>
             <section className="text-white py-10 flex flex-col items-center justify-center text-center">
                 <h1 className="text-5xl font-bold bg-gradient-to-r from-white to-indigo-200 bg-clip-text text-transparent mb-4">Discover Amazing Topics</h1>
                 <h3 className="text-xl">Explore fascinating stories and insights from around the world</h3>
@@ -30,7 +30,7 @@ const Home = () => {
                     <div className='row'>
                         <div className='col-md-12 mb-4 text-center'>
                             <h3 className='text-2xl font-bold text-yellow-400'>Vision, mission, and values</h3>
-                            <div className='h-1 w-48 my-2.5 mx-auto bg-gradient-to-r from-purple-600 via-red-500 to-purple-600'></div>
+                            <div className='h-1 w-48 my-2.5 mx-auto bg-gradient-to-r from-pink-500 via-red-500 to-pink-500'></div>
                         </div>
                         <div className='col-md-12 card shadow-lg border border-1 mb-5'>
                             <div className='flex flex-col justify-center items-center text-center h-full p-5'>
