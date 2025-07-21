@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div className='bg-purple-600'>
             <section className='py-10'>
-                <div className='container mx-auto px-4'>
+                <div className='container mx-auto px-4 text-center'>
                     <h3 className='text-2xl text-center font-bold text-pink-400'>Our Site</h3>
                     <div className='h-1 w-48 my-2.5 mx-auto bg-gradient-to-r from-cyan-600 via-white-500 to-cyan-600'></div>
                     <h6 className='text-2xl text-violet-300'>This is an example of a responsive website about various topics as long they are relevant to readers. The topics are various and of course, no topic is absurd and cringe. The topics here can be random and can be from anywhere and anytime.</h6>
